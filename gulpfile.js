@@ -15,8 +15,8 @@ gulp.task('compile', shell.task([
 
 gulp.task('tslint', function() {
     return gulp.src([files.src, files.test, '!test/index.ts'])
-        .pipe(tslint())
-        .pipe(tslint.report('verbose'));
+        .pipe(tslint({ formatter: 'verbose' }))
+        .pipe(tslint.report());
 });
 
 gulp.task('default', ['compile', 'tslint']);
