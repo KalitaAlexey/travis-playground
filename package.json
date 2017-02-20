@@ -1,0 +1,27 @@
+{
+  "name": "travis-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "gulp": "node ./node_modules/gulp/bin/gulp.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KalitaAlexey/travis-playground.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KalitaAlexey/travis-playground/issues"
+  },
+  "homepage": "https://github.com/KalitaAlexey/travis-playground#readme",
+  "devDependencies": {
+    "gulp": "3.9.1",
+    "gulp-shell": "0.5.2",
+    "typescript": "2.1.6",
+    "tslint": "4.4.2",
+    "gulp-typescript": "3.1.5",
+    "gulp-tslint": "7.1.0"
+  }
+}
